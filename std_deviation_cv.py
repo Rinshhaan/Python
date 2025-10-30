@@ -12,16 +12,16 @@ class_intervals = ["0-1O" , "10-20" , "20-30" , "30-40" , "40-50" , "50-60" , "6
 frequencies = [5, 10, 20, 40, 30, 20, 10, 5]
 
 # Calculate midpoints 
-midpoints= [5, 15, 25, 35, 45, 55, 65, 75] 
+midpoints= ([5, 15, 25, 35, 45, 55, 65, 75]) 
 
 # Weighted mean 
 mean = np.average(midpoints, weights=frequencies) 
 print(mean)
 
 # Variance and standard deviation 
-squared_deviation = [(x - mean)**2 for x in midpoints] 
+squared_deviation = [(x - mean)**2 for x in midpoints] # Σ(xi​−xˉ)^2 
 print(squared_deviation)
-variance = np.average(squared_deviation, weights=frequencies) 
+variance = np.average(squared_deviation, weights=frequencies) # Σ(xi​−xˉ)^2/n , here Σf(xi​−xˉ)^2/Σf
 std_dev = np.sqrt(variance) 
 
 # Coefficient of Variation 

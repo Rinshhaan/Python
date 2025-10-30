@@ -6,6 +6,8 @@
 # exactly 4 => p(X=4)
 # atleast 1 => p(X >= 1)
 # atmost => p(X <= n)
+# more than => >
+# less tha => <
 
 import math
 # Parameters

@@ -12,7 +12,7 @@ populations = [4779736, 710231, 6392017, 2915918, 37253956, 5029196, 3574097, 89
 
 # Compute statistics 
 mean_population = np.mean(populations) # (all +)/len(population)
-median_population = np.median(populations) # if n = odd, median = middlevalue elif n = even , median = middle two values + then / 2
+median_population = np.median(populations) # arrange in ascending order and then if n = odd, median = middlevalue elif n = even , median = middle two values + then / 2
 variance_populaton = np.var(populations) # sigmasquare = ((population[i]-mean)^2)/n)
 
 # Print the results
