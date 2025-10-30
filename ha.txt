@@ -1,0 +1,7 @@
+ha saaa a 333 44 ?
+11
+12
+3
+000
+ hazAppending new line to the file
+Appending new line to the file
